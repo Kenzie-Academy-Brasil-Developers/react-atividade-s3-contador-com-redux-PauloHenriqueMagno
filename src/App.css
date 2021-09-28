@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+p{
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.Counter{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+button{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(146, 33, 33);
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: larger;
+  border-radius: 5px;
+  border: 2px solid rgb(0, 0, 0);
+}
+button:last-child{
+  background-color: rgb(57, 121, 57);
+
+}
+
+button:hover{
+  filter: brightness(70%)
+}
+button:active{
+  filter: brightness(130%);
+  border-color: rgb(77, 76, 76);
+}
